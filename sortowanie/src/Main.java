@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
 // POSORTOWANE
-
+// tworze i wypełniam tablice odpowiednia iloscią elementow
         int[] arraySorted1 = new int[2000];
         for (int i = 0; i < arraySorted1.length; i++) {
             arraySorted1[i] = i;
@@ -28,7 +28,7 @@ public class Main {
             arraySorted5[i] = i;
         }
 
-
+// wywołanie odpowiedniej metody sortujacej czyli sorted dla posortowanych tablic.
         Posortowane.sorted(arraySorted1);
         System.out.println();
         Posortowane.sorted(arraySorted2);
@@ -48,7 +48,7 @@ public class Main {
 
 
 // NIEPOSORTOWANE
-
+// tworze i wypełniam tablice odpowiednia iloscią elementow
         System.out.println("NIEPOSORTOWANE TABLICE, NAJGORSZY PRZYPADEK");
 
         int[] arrayUnsorted1 = new int[2000];
@@ -80,6 +80,8 @@ public class Main {
             arrayUnsorted5[i] = arrayUnsorted5.length - (i + 1);
 
         }
+        
+        // wywołanie odpowiednej metody czyli insertion dla nieposortowanych tablic
         Sortowanie.insertion(arrayUnsorted1);
         System.out.println();
         Sortowanie.insertion(arrayUnsorted2);
