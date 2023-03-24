@@ -10,7 +10,7 @@ public class Sortowanie {
         System.out.println("Fn = " + fn);
 
         double start = System.currentTimeMillis();
-        for (int j = 1; j < n; j++) {
+        for (int j = 1; j < n; j++) {  // zaczynam od 2 giego elementu czyli od 1 bo pierwszy element to 0 w tablicy
             int key = array[j];
             int i = j-1;
             while ( (i > -1) && ( array [i] > key ) ) {
