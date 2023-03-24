@@ -40,7 +40,7 @@ public class Main {
         Posortowane.sorted(arraySorted5);
         System.out.println();
 
-        // wydaje mi sie ze nalezy to zaokragic do 0 wtedy czasy sie zgadaja.
+        // wydaje mi sie ze nalezy to zaokragic do 0 wtedy czasy sie zgadzaja gdy wychodzi 1 ms to mysle ze jest błąd pomiaru czasu.
 
 
 
