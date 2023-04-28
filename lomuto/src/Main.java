@@ -15,7 +15,7 @@ public class Main {
             arr[i] = number;
         }
 
-
+        // output i uruchomienie programu
         System.out.print("Przed Sortowaniem : ");
         for (int k : arr) {
             System.out.print(k + " ");
