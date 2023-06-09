@@ -103,7 +103,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String wiadomosc = "AABBCCDDDDDDDFFFEEER";
+        String wiadomosc = "Testowy string";
         int[] tabZliczajaca = zlicz(wiadomosc);
         char minZnak = Character.MAX_VALUE;
         for (int i = 0; i < wiadomosc.length(); i++) {
